@@ -1,0 +1,17 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav__link {
+  padding: 0 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.header {
+  background-color: rgb(59, 75, 59);
+}
