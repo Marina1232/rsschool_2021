@@ -10,6 +10,12 @@
   color: whitesmoke;
   text-decoration: none;
   line-height: 50px;
+  transition: 2s;
+}
+
+.nav__link:hover {
+  color: coral;
+  text-decoration: underline solid 2px;
 }
 
 .header {
