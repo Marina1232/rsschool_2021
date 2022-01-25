@@ -1,3 +1,73 @@
 .main {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main__conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.myphoto {
+  padding: 10px 0;
+  width: 200px;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.profile::after {
+  position: absolute;
+  bottom: -5px;
+  left: 1px;
+  width: 100%;
+  height: 10px;
+  background-color: rgba(155, 167, 133, 0.7);
+  content: " ";
+}
+
+.profile__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile__name {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.myname {
+  position: relative;
+  color:rgb(88, 56, 58);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+
+.myname::after {
+  position: absolute;
+  top: 40px;
+  left: 95px;
+  width: 120px;
+  height: 2px;
+  background-color: rgb(136, 148, 114);
+  content: " ";
+}
+
+.profile__under_name {
+  color: rgb(112, 75, 77);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
