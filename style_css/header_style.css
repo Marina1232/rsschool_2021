@@ -1,0 +1,24 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav__link {
+  padding: 0 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  transition: 2s;
+}
+
+.nav__link:hover {
+  color: coral;
+  text-decoration: underline solid 2px;
+}
+
+.header {
+  background-color: rgb(59, 75, 59);
+}
