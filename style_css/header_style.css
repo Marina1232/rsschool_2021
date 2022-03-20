@@ -9,7 +9,7 @@
   padding: 0 20px;
   color: whitesmoke;
   text-decoration: none;
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
   line-height: 50px;
   transition: 2s;
 }
@@ -21,4 +21,15 @@
 
 .header {
   background-color: rgb(59, 75, 59);
+}
+
+@media screen and (max-width: 390px) {
+  .nav__item {
+    flex: 1 0 33%;
+  }
+
+  .nav__list {
+  flex-wrap: wrap;
+  padding: 0;
+  } 
 }

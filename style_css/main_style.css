@@ -14,6 +14,8 @@
   width: 43%;
 }
 
+
+
 .myphoto {
   padding: 10px 0;
   width: 200px;
@@ -37,12 +39,14 @@
   content: " ";
 }
 
+
 .profile__photo {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
+
 
 .profile__name {
   display: flex;
@@ -68,6 +72,10 @@
   height: 2px;
   background-color: rgb(136, 148, 114);
   content: " ";
+}
+
+@media  and  {
+  
 }
 
 .profile__under_name {
@@ -141,4 +149,19 @@ height: 3px;
 border: 2px solid rgba(155, 167, 133, 0.7);
 border-radius: 50%;
 content: " ";
+}
+
+@media screen and (max-width: 390px) {
+  .profile__photo {
+    display: none;
+  }
+  .myname::after {
+    display: none;
+    /* top: 26px;
+    left: 14px;
+    width: 86px; */
+  }
+  .section {
+    margin-left: 30px;
+  }
 }
